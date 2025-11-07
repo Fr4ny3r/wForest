@@ -3,13 +3,13 @@ function OurMission () {
 
     return (
     <>
-        <main className="flex justify-center ">
+        <main className="flex justify-center md:justify-between items-center flex-col md:flex-row gap-10 max-w-6xl mx-auto px-4 py-20">
             <span className="text-left w-full">
                 <h1 className="font-extrabold text-center xl:text-left text-5xl py-9">objective</h1>
-                <p className="relative px-10 xl:left-5 xl:px-0 pt-5 text-xl text-justify italic">
+                <p className="relative px-10 xl:left-5 xl:px-0 py-10 pt-5 text-xl text-justify italic">
                     "We are dedicated to preserving the world's most vital ecosystems and endangered species. Our objective is to create sustainable, protected habitats where wildlife can thrive, free from human encroachment. Through committed scientific research, community education, and direct conservation action, we strive to be a force for change, ensuring that the unparalleled beauty and ecological balance of the forest are secured for future generations. Your participation directly fuels these critical efforts."
                 </p>
-                <span className=" relative w-full block flex justify-center text-xl font-bold gap-15 items-center top-1/4">
+                <span className=" relative w-full block flex md:flex-col xl:flex-row justify-center text-xl font-bold items-center top-1/4">
                     <button className="hover:cursor-pointer hover:bg-[var(--color-primary)]/40 bg-[var(--color-primary)] rounded-xl p-4 px-10">I want to help</button>
                     <a className="hover:cursor-pointer text-[var(--color-text)]/60 text-xl hover:text-[var(--color-text)]/70 underline p-4 px-20">See More <span className="font-extrabold text-3xl">&rarr;</span></a>
                 </span>

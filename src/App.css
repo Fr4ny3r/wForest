@@ -17,6 +17,9 @@ main {
   padding-block: 80px;
 }
 
+#titles {
+  text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.3);
+}
 
 #card-Featured {
   box-shadow: 5px 7px 1px 0px rgba(0, 0, 0, 0.08);
