@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* LÍNEA 1: El @import DEBE ir primero */
+
+/* AHORA sí puedes poner otras reglas CSS */
+h1, h2, h3, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Y otras reglas... */
+body {
+  font-family: 'Lora', serif;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #EBEBEB;
+  background-color: #1A281F;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: #1A281F; /* Fondo Principal (Verde Bosque Oscuro) */
+  --color-primary: #6B9E78; /* Verde Hojas Brillante */
+  --color-secondary: #3A5741; /* Verde Musgo Oscuro */
+  --color-text: #EBEBEB; /* Texto Principal (Gris Claro) */
+  --color-accent: #D4A964; /* Acento (Oro Suave) */
+
+
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #333333;
+    background-color: #F5F5E9;
+
+  --color-bg: #F5F5E9; /* Fondo (Blanco Crema) */
+  --color-primary: #4A7C59; /* Verde Bosque Oscuro */
+  --color-secondary: #8AA890; /* Verde Salvia Claro */
+  --color-text: #333333; /* Texto Principal (Gris Oscuro) */
+  --color-accent: #B78846; /* Acento (Marrón Tierra) */
+
+
+  }
+}

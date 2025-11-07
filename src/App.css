@@ -1,0 +1,80 @@
+#root {
+  max-width: 2000px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1280px;
+  padding-block: 80px;
+}
+
+
+#pointer {
+  width: 350px;
+  height: 60px;
+  position: relative;
+  background: var(--color-bg);
+  box-shadow: 5px 5px 1px 0px black;
+
+}
+#pointer:after {
+  content: "";
+  position: absolute;
+  right: -29.5px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid var(--color-bg);
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+#pointer:before {
+
+    content: "";
+  position: absolute;
+  right: -33px;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid black;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+
+
+    #burst-8 {
+      top: 0px;
+      background: var(--color-bg);
+      width: 200px;
+      height: 200px;
+      rotate: 10deg;
+      position: relative;
+      text-align: center;
+      transform: rotate(20deg) translate(-20%, -35%);
+    }
+    #burst-8:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 200px;
+      width: 200px;
+      background: var(--color-bg);
+      transform: rotate(135deg);
+    }
+  
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
