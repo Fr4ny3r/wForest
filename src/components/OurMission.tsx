@@ -6,9 +6,8 @@ function OurMission () {
         <main className="flex justify-center ">
             <span className="text-left w-full">
                 <h1 className="font-extrabold text-center xl:text-left text-5xl py-9">objective</h1>
-                <p className="relative px-10 xl:left-5 xl:px-0 pt-5 text-xl text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illo vero quidem sint tempore id eveniet at saepe excepturi veniam ipsam repellat ex, officiis, architecto quae dolores unde labore dolor.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus officia neque optio temporibus dolorum beatae hic nostrum dignissimos molestiae esse adipisci obcaecati corporis amet consectetur, cumque rem suscipit earum?
+                <p className="relative px-10 xl:left-5 xl:px-0 pt-5 text-xl text-justify italic">
+                    "We are dedicated to preserving the world's most vital ecosystems and endangered species. Our objective is to create sustainable, protected habitats where wildlife can thrive, free from human encroachment. Through committed scientific research, community education, and direct conservation action, we strive to be a force for change, ensuring that the unparalleled beauty and ecological balance of the forest are secured for future generations. Your participation directly fuels these critical efforts."
                 </p>
                 <span className=" relative w-full block flex justify-center text-xl font-bold gap-15 items-center top-1/4">
                     <button className="hover:cursor-pointer hover:bg-[var(--color-primary)]/40 bg-[var(--color-primary)] rounded-xl p-4 px-10">I want to help</button>

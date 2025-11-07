@@ -16,7 +16,7 @@ function Featured () {
 
         <div className="flex flex-col md:flex-row justify-between gap-8">
             
-            <div className="flex-1 bg-secondary-dark p-6  shadow-xl text-left transition-transform duration-300 hover:scale-[1.03]">
+            <div id="card-Featured" className="flex-1 bg-secondary-dark p-6 border-[var(--color-secondary)] border-b-8 text-left transition-transform duration-300 hover:scale-[1.03]">
                 <img src="https://images.unsplash.com/photo-1722769022871-c67733710d33?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1334" alt="Conservation Image" className="w-full h-48 object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-primary-light mb-3">
                     Wildlife Rescue & Habitat
@@ -30,7 +30,7 @@ function Featured () {
                 </a>
             </div>
             
-            <div className="flex-1 bg-secondary-dark p-6 shadow-xl text-left transition-transform duration-300 hover:scale-[1.03]">
+            <div id="card-Featured" className="flex-1 bg-secondary-dark p-6 border-[var(--color-secondary)] border-b-8 text-left transition-transform duration-300 hover:scale-[1.03]">
                 <img src="https://images.unsplash.com/photo-1729700125074-30981b22cd26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332" alt="Exploration Image" className="w-full h-48 object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-primary-light mb-3">
                     Guided Hiking Trails
@@ -44,7 +44,7 @@ function Featured () {
                 </a>
             </div>
             
-            <div className="flex-1 bg-secondary-dark p-6 shadow-xl text-left transition-transform duration-300 hover:scale-[1.03]">
+            <div id="card-Featured" className="flex-1 bg-secondary-dark p-6 border-[var(--color-secondary)] border-b-8 text-left transition-transform duration-300 hover:scale-[1.03]">
                 <img src="https://images.unsplash.com/photo-1714849294343-2a39a8dece8b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1329" alt="Education Image" className="w-full h-48 object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-primary-light mb-3">
                     Nature Education Programs
