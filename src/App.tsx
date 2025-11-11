@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+
 import Hero from './components/Hero'
 import OurMission from './components/OurMission'
 import Featured from './components/Featured'
